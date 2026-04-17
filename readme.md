@@ -1,3 +1,18 @@
-# Trabajo Grupal - TLP
+**Materia:** Taller de Lenguaje de Programación
+**Año:** 2026
 
-## Desarrollo colaborativo de un sitio web con Git y GitHub
+## Integrantes
+
+- Martino Lotto
+- Gabriel Prini
+- Jonathan Sanchez
+
+## Descripción
+
+Sitio web informativo sobre una biblioteca pública.
+
+## Distribución de tareas
+
+- Jonathan Sanchez: index.html y Contacto
+- Martino Lotto: Servicios
+- Gaybriel Prini: Aceca de Nosotros
