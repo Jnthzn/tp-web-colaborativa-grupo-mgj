@@ -15,4 +15,4 @@ Sitio web informativo sobre una biblioteca pública.
 
 - Jonathan Sanchez: index.html y Contacto
 - Martino Lotto: Servicios
-- Gaybriel Prini: Aceca de Nosotros
+- Gabriel Prini: Aceca de Nosotros

@@ -1,0 +1,120 @@
+/*  PALETAS DE COLORES
+
+#3C6897 celeste
+#626D7B gris
+#0c3051 azul oscuro
+#c09f64 dorado
+#d6c3a5 beige 
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr, 1fr;
+  min-height: 100vh;
+}
+
+header img {
+  max-width: 100%;
+  width: 750px;
+  float: left;
+}
+
+header {
+  background: linear-gradient(to bottom, #3c6897 10%, #0c3051aa 90%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #3c6897;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-image {
+  margin-bottom: 20px;
+}
+
+header h1 header h2 {
+  display: block;
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  background-color: #0c3051;
+}
+
+main {
+  background-color: #fdfdfd;
+}
+
+.main-introduccion {
+  font-size: 20px;
+  color: #000000;
+  line-height: 1.6;
+  margin-top: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-introduccion h2 {
+  font-size: 28px;
+  color: #c09f64;
+  margin: 15px;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-introduccion p {
+  margin: 15px;
+}
+
+.main-aside {
+  background-color: #e9e9e9;
+  padding: 20px;
+  color: #333;
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Sombra suave */
+  border: 2px solid #c09f64; /* Borde dorado */
+  width: 70%;
+  text-align: center;
+  margin: 20px auto;
+  font-style: italic;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 25px;
+}
+
+.main-table {
+  width: 80%; /* Ajusto el tamaño de la tabla */
+  border-collapse: collapse; /* Elimina los espacios entre celdas */
+  padding: 12px;
+  background-color: #e9e9e9;
+  color: #333;
+  margin: 20px auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Sombra suave */
+  border-radius: 10px; /* Esquinas redondeadas */
+  overflow: hidden; /*Oculta el contenido que excede los límites de la tabla */
+  min-width: 600px; /* Ancho mínimo de la tabla */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 25px;
+}
+
+.main-table th,
+.main-table td {
+  border: 1px solid #626d7bac;
+  padding: 12px;
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-table thead {
+  background: linear-gradient(90deg, #c09f64, #a8844f); /* Degradado dorado */
+  text-transform: uppercase; /* Convierte el texto a mayúsculas */
+  letter-spacing: 1px; /* Espaciado entre letras */
+  color: #fff;
+}
