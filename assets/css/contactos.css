@@ -1,0 +1,125 @@
+/*  PALETAS DE COLORES
+
+#3C6897 celeste
+#626D7B gris
+#0c3051 azul oscuro
+#c09f64 dorado
+#d6c3a5 beige 
+
+*/
+
+/* TODO */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr, 1fr;
+  min-height: 100vh;
+}
+
+/* HEADER */
+header img {
+  max-width: 100%;
+  width: 750px;
+  float: left;
+}
+
+header {
+  background: linear-gradient(to bottom, #3c6897 10%, #0c3051aa 90%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #3c6897;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-image {
+  margin-bottom: 20px;
+}
+
+header h1 header h2 {
+  display: block;
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  background-color: #0c3051;
+}
+
+/* NAV */
+.menu-nav {
+  background-color: #0c3051;
+  border-bottom: 3px solid #c09f64;
+  padding: 0 5%;
+  max-width: 100%;
+}
+
+.menu-nav ul {
+  list-style-type: none;
+  padding: 0px;
+  text-align: center;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-nav a {
+  display: block;
+  padding: 10px 100px;
+
+  color: #ffff;
+  text-decoration: none;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.menu-nav a:hover {
+  background-color: #c09f64;
+  color: #0c3051;
+}
+
+.menu-nav ul li {
+  position: relative;
+}
+
+.menu-nav ul li:hover .submenu {
+  display: flex;
+  flex-direction: column;
+}
+.menu-nav ul li .submenu {
+  display: none;
+  background-color: #5f5c5c;
+  width: auto;
+  position: absolute;
+}
+
+/* MAIN */
+
+/* FOOTER */
+footer {
+  background: linear-gradient(to top, #3c6897 20%, #0c3051cf 80%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+footer p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #fff;
+}
+
+footer img {
+  width: 150px;
+  max-width: 100%;
+}
