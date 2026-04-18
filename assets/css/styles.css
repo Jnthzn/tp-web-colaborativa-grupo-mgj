@@ -171,13 +171,14 @@ main {
 }
 
 /* FOOTER */
+
 footer {
   background: linear-gradient(to top, #3c6897 20%, #0c3051cf 80%);
   display: flex;
   align-items: center;
   gap: 10px;
   padding: 10px;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: row;
   max-width: 100%;
 }
@@ -189,6 +190,6 @@ footer p {
 }
 
 footer img {
-  width: 110px;
-  height: auto;
+  width: 150px;
+  max-width: 100%;
 }
