@@ -193,3 +193,16 @@ footer img {
   width: 150px;
   max-width: 100%;
 }
+
+.main-introduccion {
+  padding: 20px;
+}
+
+.main-introduccion h2 {
+  margin-bottom: 15px;
+}
+
+.main-introduccion p {
+  margin-bottom: 10px;
+  line-height: 2;
+}
