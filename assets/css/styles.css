@@ -118,3 +118,24 @@ main {
   letter-spacing: 1px; /* Espaciado entre letras */
   color: #fff;
 }
+
+footer {
+  background: linear-gradient(to top, #3c6897 20%, #0c3051cf 80%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+footer p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #fff;
+}
+
+footer img {
+  width: 110px;
+  height: auto;
+}
