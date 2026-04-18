@@ -8,6 +8,7 @@
 
 */
 
+/* TODO */
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +20,7 @@
   min-height: 100vh;
 }
 
+/* HEADER */
 header img {
   max-width: 100%;
   width: 750px;
@@ -49,6 +51,55 @@ header h1 header h2 {
   background-color: #0c3051;
 }
 
+/* NAV */
+.menu-nav {
+  background-color: #0c3051;
+  border-bottom: 3px solid #c09f64;
+  padding: 0 5%;
+  max-width: 100%;
+}
+
+.menu-nav ul {
+  list-style-type: none;
+  padding: 0px;
+  text-align: center;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-nav a {
+  display: block;
+  padding: 10px 100px;
+
+  color: #ffff;
+  text-decoration: none;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.menu-nav a:hover {
+  background-color: #c09f64;
+  color: #0c3051;
+}
+
+.menu-nav ul li {
+  position: relative;
+}
+
+.menu-nav ul li:hover .submenu {
+  display: flex;
+  flex-direction: column;
+}
+.menu-nav ul li .submenu {
+  display: none;
+  background-color: #5f5c5c;
+  width: auto;
+  position: absolute;
+}
+
+/* MAIN */
 main {
   background-color: #fdfdfd;
 }
@@ -119,6 +170,7 @@ main {
   color: #fff;
 }
 
+/* FOOTER */
 footer {
   background: linear-gradient(to top, #3c6897 20%, #0c3051cf 80%);
   display: flex;
@@ -127,6 +179,7 @@ footer {
   padding: 10px;
   justify-content: space-evenly;
   flex-direction: row;
+  max-width: 100%;
 }
 
 footer p {
