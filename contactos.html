@@ -35,7 +35,34 @@
         </ul>
       </nav>
       <main>
-          
+          <div class="contacto-form">
+            <h2>Formulario de Contacto</h2>
+        <form class="formulario" action="#" method="post">
+
+            <label for="name-surname">Nombre y Apellido:</label>
+            <input type="text" name="name-surname" id="name-surname" placeholder="Juan Gimenez" required>
+
+            <label for="tel">Teléfono:</label>
+            <input type="tel" name="tel" id="tel" placeholder="370 4256 278" required>
+
+            <label for="mail">Correo:</label>
+            <input type="email" name="mail" id="mail" placeholder="juangimenez@gmail.com" required>
+
+            <label for="motivo">Motivo:</label>
+            <select name="motivo" id="motivo">
+            <option value="consulta">Consulta</option>
+            <option value="reclamo">Reclamo</option>
+            <option value="objetos">Objetos Perdidos</option>
+            <option value="otros">Otros</option>
+            </select>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" placeholder="Describa su consulta" rows="4"></textarea>
+
+            <button type="submit">Envíar</button>
+
+</form>
+</div>
 
       </main>
       <footer>
