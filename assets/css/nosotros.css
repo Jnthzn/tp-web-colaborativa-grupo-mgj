@@ -206,3 +206,11 @@ footer img {
   margin-bottom: 10px;
   line-height: 2;
 }
+
+.main-introduccion ul {
+  margin: 15px 30px;
+}
+
+.main-introduccion li {
+  margin-bottom: 8px;
+}
