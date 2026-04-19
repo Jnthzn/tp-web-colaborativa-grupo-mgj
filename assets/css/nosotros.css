@@ -214,3 +214,13 @@ footer img {
 .main-introduccion li {
   margin-bottom: 8px;
 }
+
+.main-introduccion a {
+  color: #0c3051;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main-introduccion a:hover {
+  text-decoration: underline;
+}
