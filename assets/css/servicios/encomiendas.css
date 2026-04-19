@@ -1,0 +1,11 @@
+.presentacion-envios{
+    background-color: #0c3051; 
+    color: #ffffff;           
+    text-align: center;        
+    padding: 50px 20px;       
+}
+
+.presentacion-envios h1 {
+    font-size: 2.5rem;         
+    margin-bottom: 10px;       
+}
