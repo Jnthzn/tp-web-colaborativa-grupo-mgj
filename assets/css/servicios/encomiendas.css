@@ -1,3 +1,4 @@
+/*eestilo a presentación*/
 .presentacion-envios{
     background-color: #0c3051; 
     color: #ffffff;           
@@ -8,4 +9,43 @@
 .presentacion-envios h1 {
     font-size: 2.5rem;         
     margin-bottom: 10px;       
+}
+/*estilos a seguimiento*/
+.seguimiento-envio{
+   display: flex;
+   justify-content: center;
+   margin-top: -40px; /*sube la caja*/
+}
+.info{
+    background-color:white;
+    padding:30px ;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+
+}
+
+.boton-seg {
+ background-color: #c09f64;
+ color:#0c3051;
+ border: none;
+ padding: 10px 15px;
+ font-weight: bold;
+border-radius: 4px;
+}
+
+.busqueda-seg{
+    display: flex;
+    gap: 20px;/*espacio entre boton*/
+    margin-top: 20px;
+    
+}
+
+.input-numero{
+ flex: 1; /*largo barra*/
+ padding: 12px;
+ border-radius: 10px;
+ border: 1px solid grey;
 }
