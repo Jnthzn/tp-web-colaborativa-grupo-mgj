@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactos</title>
+    <link rel="stylesheet" href="assets/css/contactos.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-image">
+          <img
+            src="assets/img/logoterminal.png"
+            alt="logo terminal de ómnibus de Formosa"
+            class="header-logo"
+          />
+        </div>
+        <h1><b>TERMINAL DE ÓMNIBUS DE FORMOSA</b></h1>
+        <h2><i>Bienvenidos a nuestro terminal de ómnibus</i></h2>
+      </header>
+
+      <nav class="menu-nav">
+        <ul>
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="nosotros.html">NOSOTROS</a></li>
+          <li>
+            <a href="#">SERVICIOS ▼</a>
+            <ul class="submenu">
+              <li><a href="servicios /pasajes.html">Sacá tu Pasaje</a></li>
+              <li>
+                <a href="servicios /encomiendas.html">Encomiendas y Envíos</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">CONTACTOS</a></li>
+        </ul>
+      </nav>
+      <main class="contactos-page">
+        <section class="contacto-form">
+          <h2>Formulario de Contacto</h2>
+          <form class="form-input" action="#" method="post">
+            <label for="name-surname">Nombre y Apellido:</label>
+            <input
+              type="text"
+              name="name-surname"
+              id="name-surname"
+              placeholder="Juan Gimenez"
+              required
+            />
+
+            <label for="tel">Teléfono:</label>
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder="370 4256 278"
+              required
+            />
+
+            <label for="mail">Correo:</label>
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="juangimenez@gmail.com"
+              required
+            />
+
+            <label for="motivo">Motivo:</label>
+            <select name="motivo" id="motivo">
+              <option value="consulta">Consulta</option>
+              <option value="reclamo">Reclamo</option>
+              <option value="objetos">Objetos Perdidos</option>
+              <option value="otros">Otros</option>
+            </select>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              placeholder="Describa su consulta"
+              rows="4"
+            ></textarea>
+
+            <button type="submit">Envíar</button>
+          </form>
+        </section>
+
+        <section class="contactos-table">
+          <table class="table-structure">
+            <caption>
+              Empresas y Destinos
+            </caption>
+
+            <thead>
+              <tr>
+                <th>Empresa</th>
+                <th>Destinos Principales</th>
+                <th>Teléfono</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Flecha Bus</td>
+                <td>Buenos Aires, Córdoba, Rosario</td>
+                <td>0800-123-4567</td>
+              </tr>
+
+              <tr>
+                <td>Crucero del Norte</td>
+                <td>Posadas, Iguazú, Oberá</td>
+                <td>0800-999-8888</td>
+              </tr>
+
+              <tr>
+                <td>Expreso Singer</td>
+                <td>Resistencia, Corrientes, Sáenz Peña</td>
+                <td>0370-444-1234</td>
+              </tr>
+
+              <tr>
+                <td>Empresa Godoy</td>
+                <td>Clorinda, Pirané, El Colorado</td>
+                <td>0370-456-7890</td>
+              </tr>
+
+              <tr>
+                <td>La Nueva Estrella</td>
+                <td>Salta, Jujuy, Tucumán</td>
+                <td>0387-400-1122</td>
+              </tr>
+
+              <tr>
+                <td>Río Uruguay</td>
+                <td>Concordia, Paraná, Santa Fe</td>
+                <td>0345-421-3344</td>
+              </tr>
+
+              <tr>
+                <td>El Pulqui</td>
+                <td>Buenos Aires, La Plata, Luján</td>
+                <td>0800-555-7788</td>
+              </tr>
+
+              <tr>
+                <td>Expreso Formosa</td>
+                <td>Formosa, Asunción (PY)</td>
+                <td>0370-499-2211</td>
+              </tr>
+
+              <tr>
+                <td>Central Norte</td>
+                <td>Salta, Orán, Tartagal</td>
+                <td>0387-411-2233</td>
+              </tr>
+
+              <tr>
+                <td>Vía Bariloche</td>
+                <td>Neuquén, Bariloche, Mendoza</td>
+                <td>0800-333-4433</td>
+              </tr>
+
+              <tr>
+                <td>Andesmar</td>
+                <td>Mendoza, San Juan, San Luis</td>
+                <td>0261-400-5566</td>
+              </tr>
+
+              <tr>
+                <td>Chevallier</td>
+                <td>Buenos Aires, Rosario, Santa Fe</td>
+                <td>0800-222-1122</td>
+              </tr>
+
+              <tr>
+                <td>General Urquiza</td>
+                <td>Corrientes, Entre Ríos</td>
+                <td>0379-445-6677</td>
+              </tr>
+
+              <tr>
+                <td>Itatí Express</td>
+                <td>Formosa Interior, Ibarreta</td>
+                <td>0370-488-9900</td>
+              </tr>
+
+              <tr>
+                <td>Transporte Norte</td>
+                <td>Chaco, Formosa, Santiago del Estero</td>
+                <td>0362-455-7788</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="preguntas-frec">
+          <h2>Preguntas Frecuentes</h2>
+
+          <details>
+            <summary>¿Dónde comprar pasajes?</summary>
+            <p>
+              Los pasajes se pueden adquirir en boleterías o de forma online.
+            </p>
+          </details>
+
+          <details>
+            <summary>¿Horario de boleterías?</summary>
+            <p>De 06:00 a 22:00 hs todos los días.</p>
+          </details>
+
+          <details>
+            <summary>¿Hay guardaequipaje?</summary>
+            <p>Sí, disponible dentro de la terminal.</p>
+          </details>
+
+          <details>
+            <summary>¿Hay atención al cliente?</summary>
+            <p>Sí, en el sector de informes.</p>
+          </details>
+        </section>
+
+        <section class="contactos-map">
+          <h2>Ubicación</h2>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.18171465026!2d-58.196700024118776!3d-26.190766477084868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945caf3f0fef9c9b%3A0x8536237dc308398d!2sTERMINAL%20DE%20%C3%93MNIBUS%20DE%20FORMOSA!5e0!3m2!1ses!2sar!4v1776659757624!5m2!1ses!2sar"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          &copy; 2026 Terminal de Ómnibus de Formosa. Todos los derechos
+          reservados. | Contacto: info@terminaldeomnibusformosa.com.ar |
+          Teléfono: +54 9 370 4234 5467
+        </p>
+        <img
+          src="assets/img/formosa-tu-ciudad.webp"
+          alt="Formosa, tu ciudad"
+          class="footer-image"
+        />
+      </footer>
+    </div>
+  </body>
+</html>
