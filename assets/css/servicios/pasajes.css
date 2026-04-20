@@ -24,7 +24,7 @@
     margin-bottom: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/*estilo a todo dentro del ucadro*/
 .campos{
     margin-bottom: 20px;
 }
@@ -32,18 +32,49 @@
 .inputs{
     display: flex;
     flex-direction: column;
-    width: 100%
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 .inputs label{
     font-size: 0.9rem;
     font-weight: bold;
     color: #555;
-    margin-bottom: 6px;/*entre texto y caja input*/
+    margin-bottom: 9px;/*entre texto y caja input*/
 }
 
 .inputs input{
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 8px;
+}
+/*fecha-pasajeros-buscar*/
+.fila-doble{
+    display:flex;
+    gap:15px;
+    margin-bottom:15px ;
+}
+
+.boton-buscar{
+    width: 100% ; /*todo el ancho*/
+    padding: 15px;
+    background-color: #c09f64;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+.boton-buscar:hover{
+    background-color: #a88a53;
+}
+/*pasajeros y opciones*/
+.inputs select{
+    padding: 12px;
+    border:  1px solid #f9f9f9;
+    border-radius:8px;
+}
+.pasajeros {
+    flex: 0 0 120px; /* tamaño cuadro opciones*/
 }

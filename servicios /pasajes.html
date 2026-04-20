@@ -36,25 +36,45 @@
     </nav>
 
     <main class="pasajes-principal">
-
       <section class="seccion-busqueda">
-
         <div class="cuadro-busq">
-
           <h2>Sacá tu Pasaje en Micro</h2>
           <form action="#" class="formulario-pasajes">
-
             <div class="campos">
 
+              <div class="inputs">
+                <label>Origen</label>
+                <input type="text" placeholder="Ej: Formosa" />
+              </div>
+
+              <div class="inputs">
+                <label>Destino</label>
+                <input type="text" placeholder="Ej: Buenos Aires" />
+              </div>
+
+              <div class="fila-doble">
                 <div class="inputs">
-                    <label>Origen</label>
-                    <input type="text" placeholder="Ej: Formosa">
+                  <label>Fecha</label>
+                  <input type="text" placeholder="DD/MM/AAAA" />
                 </div>
-                
-                <div class="inputs">
-                    <label>Destino</label>
-                    <input type="text" placeholder="Ej: Buenos Aires">
+
+                <div class="inputs pasajeros">
+
+                  <label>Pasajeros</label>
+                  <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 o más</option>
+                  </select>
+
                 </div>
+
+              </div>
+
+              <button type="submit" class="boton-buscar">Buscar</button>
+            
             </div>
           </form>
         </div>
