@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pasajes</title>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/servicios/pasajes.css" />
+  </head>
+  <body>
+    <header>
+    <div class="header-top">
+        <img src="../assets/img/logoterminal.png" alt="logo de la terminal" />
+        <h1>Terminal de Ómnibus Formosa</h1>
+        <h2>SERVICIO DE TRANSPORTE DE CALIDAD</h2>
+    </div>
+</header>
+
+    <nav class="menu-nav">
+      <ul>
+        <li><a href="../index.html">INICIO</a></li>
+        <li><a href="#">NOSOTROS</a></li>
+        <li>
+          <a href="#">SERVICIOS ▼</a>
+          <ul class="submenu">
+            <li><a href="pasajes.html">Sacá tu Pasaje</a></li>
+            <li><a href="encomiendas.html">Encomiendas y Envíos</a></li>
+          </ul>
+        </li>
+        <li><a href="#">CONTACTOS</a></li>
+      </ul>
+    </nav>
+
+    <main class="pasajes-principal">
+      <section class="seccion-busqueda">
+        <div class="cuadro-busq">
+          <h2>Sacá tu Pasaje en Micro</h2>
+          <form action="#" class="formulario-pasajes">
+            <div class="campos">
+              <div class="inputs">
+                <label>Origen</label>
+                <input type="text" placeholder="Ej: Formosa" />
+              </div>
+
+              <div class="inputs">
+                <label>Destino</label>
+                <input type="text" placeholder="Ej: Buenos Aires" />
+              </div>
+
+              <div class="fila-doble">
+                <div class="inputs">
+                  <label>Fecha</label>
+                  <input type="text" placeholder="DD/MM/AAAA" />
+                </div>
+
+                <div class="inputs pasajeros">
+                  <label>Pasajeros</label>
+                  <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 o más</option>
+                  </select>
+                </div>
+              </div>
+
+              <button type="submit" class="boton-buscar">Buscar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="destinos-populares">
+        <h3>Destinos Populares</h3>
+        <div class="lista-destinos">
+          <article class="destino">
+            <div class="info-destino">
+              <h4>Buenos Aires</h4>
+              <p>Cama y Semicama</p>
+              <span class="precio">Desde $12000</span>
+            </div>
+          </article>
+
+          <article class="destino">
+            <div class="info-destino">
+              <h4>Corrientes</h4>
+              <p>Salidas cada 1 hora</p>
+              <span class="precio">Desde $4500</span>
+            </div>
+          </article>
+
+          <article class="destino">
+            <div class="info-destino">
+              <h4>Resistencia</h4>
+              <p>Servicio Directo</p>
+              <span class="precio">Desde $3500</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2026 Terminal de Ómnibus de Formosa. Todos los derechos
+        reservados. | Contacto: info@terminaldeomnibusformosa.com.ar | Teléfono:
+        +54 9 370 4234 5467
+      </p>
+      <img
+        src="../assets/img/formosa-tu-ciudad.webp"
+        alt="Formosa, tu ciudad"
+        class="footer-image"
+      />
+    </footer>
+  </body>
+</html>
