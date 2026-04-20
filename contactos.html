@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contactos</title>
-    <link rel="stylesheet" href="assets/css/contactos.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/contactos.css" />
+  </head>
+  <body>
     <div class="container">
       <header>
         <div class="header-image">
@@ -34,105 +34,119 @@
           <li><a href="#">CONTACTOS</a></li>
         </ul>
       </nav>
-      <main>
-          <div class="contacto-form">
-            <h2>Formulario de Contacto</h2>
-        <form class="form-input" action="#" method="post">
-
+      <main class="contactos-page">
+        <section class="contacto-form">
+          <h2>Formulario de Contacto</h2>
+          <form class="form-input" action="#" method="post">
             <label for="name-surname">Nombre y Apellido:</label>
-            <input type="text" name="name-surname" id="name-surname" placeholder="Juan Gimenez" required>
+            <input
+              type="text"
+              name="name-surname"
+              id="name-surname"
+              placeholder="Juan Gimenez"
+              required
+            />
 
             <label for="tel">Teléfono:</label>
-            <input type="tel" name="tel" id="tel" placeholder="370 4256 278" required>
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder="370 4256 278"
+              required
+            />
 
             <label for="mail">Correo:</label>
-            <input type="email" name="mail" id="mail" placeholder="juangimenez@gmail.com" required>
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="juangimenez@gmail.com"
+              required
+            />
 
             <label for="motivo">Motivo:</label>
             <select name="motivo" id="motivo">
-            <option value="consulta">Consulta</option>
-            <option value="reclamo">Reclamo</option>
-            <option value="objetos">Objetos Perdidos</option>
-            <option value="otros">Otros</option>
+              <option value="consulta">Consulta</option>
+              <option value="reclamo">Reclamo</option>
+              <option value="objetos">Objetos Perdidos</option>
+              <option value="otros">Otros</option>
             </select>
 
             <label for="mensaje">Mensaje:</label>
-            <textarea name="mensaje" id="mensaje" placeholder="Describa su consulta" rows="4"></textarea>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              placeholder="Describa su consulta"
+              rows="4"
+            ></textarea>
 
             <button type="submit">Envíar</button>
+          </form>
+        </section>
 
-</form>
-</div>
-<div class="contactos-table">
-  <table class="table-structure">
+        <section class="contactos-table">
+          <table class="table-structure">
+            <caption>
+              Empresas y Deestinos
+            </caption>
+            <thead>
+              <tr>
+                <th>Empresa</th>
+                <th>Destinos Principales</th>
+                <th>Teléfono</th>
+              </tr>
+            </thead>
 
-    <thead>
+            <tbody>
+              <tr>
+                <td>Flecha Bus</td>
+                <td>Buenos Aires, Córdoba</td>
+                <td>0800-123-4567</td>
+              </tr>
 
-      <tr>
-        <th>Empresa</th>
-        <th>Destinos Principales</th>
-        <th>Teléfono</th>
-      </tr>
+              <tr>
+                <td>Crucero del Norte</td>
+                <td>Posadas, Iguazú</td>
+                <td>0800-999-8888</td>
+              </tr>
 
-      </thead>
+              <tr>
+                <td>Expreso Singer</td>
+                <td>Resistencia, Corrientes</td>
+                <td>0370-444-1234</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
 
-      <tbody>
+        <section class="preguntas-frec">
+          <h2>Preguntas Frecuentes</h2>
 
-      <tr>
-        <td>Flecha Bus</td>
-        <td>Crucero del Norte</td>
-        <td>Expreso Singer</td>
-        <td>La Nueva Godoy</td>
-        <td>Empresa Godoy</td>
-      </tr>
+          <details>
+            <summary>¿Dónde comprar pasajes?</summary>
+            <p>
+              Los pasajes se pueden adquirir en boleterías o de forma online.
+            </p>
+          </details>
 
-    <tr>
-      <td>Buenos Aires, Córdoba</td>
-      <td>Posadas, Iguazú</td>
-      <td>Resistencia, Corrientes</td>
-      <td>Clorinda, Asunción</td>
-      <td>Formosa interior</td>
-    </tr>
+          <details>
+            <summary>¿Horario de boleterías?</summary>
+            <p>De 06:00 a 22:00 hs todos los días.</p>
+          </details>
 
-     <tr>
-      <td>0800-123-4567</td>
-      <td>0800-999-8888</td>
-      <td>0370-444-1234</td>
-      <td>0370-555-6789</td>
-      <td>0370-333-2222</td>
-    </tr>
+          <details>
+            <summary>¿Hay guardaequipaje?</summary>
+            <p>Sí, disponible dentro de la terminal.</p>
+          </details>
 
-      </tbody>
-
-  </table>
-</div>
-
-<section class="preguntas-frec">
-<h2>Preguntas Frecuentes</h2>
-
-<details>
-  <summary>¿Dónde comprar pasajes?</summary>
-  <p>Los pasajes se pueden adquirir en boleterías o de forma online.</p>
-</details>
-
-<details>
-  <summary>¿Horario de boleterías?</summary>
-   <p>De 06:00 a 22:00 hs todos los días.</p>
-</details>
-
-<details>
-     <summary>¿Hay guardaequipaje?</summary>
-    <p>Sí, disponible dentro de la terminal.</p>
-</details>
-
-<details>
-    <summary>¿Hay atención al cliente?</summary>
-    <p>Sí, en el sector de informes.</p>
-  </details>
-
-</section>
-
+          <details>
+            <summary>¿Hay atención al cliente?</summary>
+            <p>Sí, en el sector de informes.</p>
+          </details>
+        </section>
       </main>
+
       <footer>
         <p>
           &copy; 2026 Terminal de Ómnibus de Formosa. Todos los derechos
@@ -145,5 +159,6 @@
           class="footer-image"
         />
       </footer>
-</body>
+    </div>
+  </body>
 </html>

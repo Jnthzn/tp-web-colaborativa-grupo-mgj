@@ -101,6 +101,50 @@ header h1 header h2 {
 
 /* MAIN */
 
+.contactos-page {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+  padding: 25px;
+}
+
+.contactos-page section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-input input,
+.form-input select,
+.form-input textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.form-input button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #3c6897, #0c3051aa);
+  color: white;
+  cursor: pointer;
+}
+
+.form-input button:hover {
+  background-color: #0c3051aa;
+}
+
+/*FIN MAIN*/
+
 /* FOOTER */
 footer {
   background: linear-gradient(to top, #3c6897 20%, #0c3051cf 80%);
